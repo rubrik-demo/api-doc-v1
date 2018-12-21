@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Rubrik REST API Specification (v1)</title>
+  <!-- needed for adaptive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/icon" href="favicon.ico">
+
+  <!--
+    ReDoc uses font options from the parent element
+    So override default browser styles
+    -->
+  <style>
+
+  </style>
+  
+</head>
+
+<body>
+  <div id="redoc_container"></div>
+    <script src="https://cdn.jsdelivr.net/npm/redoc/bundles/redoc.standalone.js"></script>
+    <script>
+      Redoc.init(
+        './openapi.json',
+        {"theme":{"colors":{"primary":{"main":"#32329f"}},"spacing":{"unit":5,"sectionVertical":"({ spacing }) => spacing.unit * 8"},"menu":{"arrow":{"size":"0px"}},"logo":{"maxHeight":"128px","maxWidth":"128px"}}},
+        document.getElementById("redoc_container")
+      );
+    </script>
+</body>
+
+</html>
