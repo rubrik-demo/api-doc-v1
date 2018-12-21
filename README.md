@@ -1,4 +1,4 @@
-# Rubrik API Specification (v1) Latest OpenAPI Specification
+# Rubrik API (v1) Latest OpenAPI Specification
 
 
 ## Working on specification

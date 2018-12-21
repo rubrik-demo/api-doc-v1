@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  version: '1'
+  version: 'v1'
   title: Rubrik REST API
   description: "\nCopyright \xA9 2017 Rubrik Inc. [Legal](#section/Legal)\n\n# Introduction\n\
     \nWelcome to the Rubrik\u2122 REST API documentation.\n\nThe Rubrik REST API provides\
@@ -1747,7 +1747,7 @@ info:
     \ Inc. in the U.S. and/or other countries. All other trademarks are the property\
     \ of their respective owners.\n"
   x-logo:
-    url: /web/bin/assets/img/rubrik_logo.svg
+    url: https://www.rubrik.com/wp-content/uploads/2016/11/Rubrik-Snowflake-small.png
 basePath: /api/v1
 schemes:
 - https

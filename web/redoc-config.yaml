@@ -2,3 +2,16 @@ theme:
   colors:
     primary:
       main: '#32329f'
+      
+  spacing: 
+      unit: 5
+      sectionVertical: ({ spacing }) => spacing.unit * 8
+
+  menu: 
+    arrow: 
+      size: "0px"
+
+  logo: 
+    maxHeight: "128px"
+    maxWidth: "128px"
+  
